@@ -1,10 +1,9 @@
 package com.keletu.emt.util;
 
-import com.keletu.emt.client.EMTKeys;
-import com.keletu.emt.network.PacketEMTKeys;
-
 import com.keletu.emt.ElectroMagicTools;
+import com.keletu.emt.client.EMTKeys;
 import com.keletu.emt.init.EMTItems;
+import com.keletu.emt.network.PacketEMTKeys;
 import ic2.core.IC2;
 import ic2.core.audio.AudioSource;
 import ic2.core.audio.PositionSpec;

@@ -4,7 +4,6 @@ import com.keletu.emt.client.creativetabs.EMTCreativeTabs;
 import com.keletu.emt.util.EMTConfigHandler;
 import ic2.api.item.ElectricItem;
 import ic2.api.item.IElectricItem;
-
 import ic2.core.IC2;
 import ic2.core.util.StackUtil;
 import net.minecraft.block.Block;

@@ -1,7 +1,7 @@
 package com.keletu.emt.item.armor.wings;
 
-import com.keletu.emt.client.creativetabs.EMTCreativeTabs;
 import com.keletu.emt.ElectroMagicTools;
+import com.keletu.emt.client.creativetabs.EMTCreativeTabs;
 import com.keletu.emt.util.EMTConfigHandler;
 import ic2.api.item.ElectricItem;
 import ic2.api.item.IElectricItem;

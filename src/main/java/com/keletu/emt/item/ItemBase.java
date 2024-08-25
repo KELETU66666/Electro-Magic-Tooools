@@ -1,8 +1,8 @@
 package com.keletu.emt.item;
 
-import com.keletu.emt.util.EMTTextHelper;
 import com.keletu.emt.ElectroMagicTools;
 import com.keletu.emt.client.creativetabs.EMTCreativeTabs;
+import com.keletu.emt.util.EMTTextHelper;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.text.translation.I18n;

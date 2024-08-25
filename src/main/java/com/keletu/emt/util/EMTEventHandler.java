@@ -1,9 +1,8 @@
 package com.keletu.emt.util;
 
 import baubles.api.BaublesApi;
-
-import com.keletu.emt.item.armor.wings.ItemFeatherWing;
 import com.keletu.emt.init.EMTItems;
+import com.keletu.emt.item.armor.wings.ItemFeatherWing;
 import net.minecraft.entity.EntityLiving;
 import net.minecraft.entity.monster.EntityCreeper;
 import net.minecraft.entity.player.EntityPlayer;

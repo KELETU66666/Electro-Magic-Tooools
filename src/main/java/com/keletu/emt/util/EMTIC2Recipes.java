@@ -1,7 +1,6 @@
 package com.keletu.emt.util;
 
 import com.keletu.emt.init.EMTItems;
-
 import ic2.api.recipe.Recipes;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;

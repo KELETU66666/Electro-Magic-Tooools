@@ -1,7 +1,7 @@
 package com.keletu.emt.item.armor.wings;
 
-import com.keletu.emt.client.creativetabs.EMTCreativeTabs;
 import com.keletu.emt.ElectroMagicTools;
+import com.keletu.emt.client.creativetabs.EMTCreativeTabs;
 import net.minecraft.client.Minecraft;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;

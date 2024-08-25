@@ -1,8 +1,8 @@
 package com.keletu.emt.client.creativetabs;
 
 
-import com.keletu.emt.init.EMTItems;
 import com.keletu.emt.ElectroMagicTools;
+import com.keletu.emt.init.EMTItems;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.NonNullList;

@@ -1,4 +1,5 @@
 package com.keletu.emt.item.tool;
+
 import com.keletu.emt.client.creativetabs.EMTCreativeTabs;
 import com.keletu.emt.util.EMTConfigHandler;
 import ic2.api.item.ElectricItem;
@@ -8,7 +9,10 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Items;
-import net.minecraft.item.*;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemBook;
+import net.minecraft.item.ItemPickaxe;
+import net.minecraft.item.ItemStack;
 import net.minecraft.util.*;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;

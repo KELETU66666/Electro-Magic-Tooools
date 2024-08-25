@@ -1,10 +1,8 @@
 package com.keletu.emt.item.armor.wings;
 
-import com.keletu.emt.client.creativetabs.EMTCreativeTabs;
 import com.keletu.emt.ElectroMagicTools;
-import com.keletu.emt.util.EMTTextHelper;
+import com.keletu.emt.client.creativetabs.EMTCreativeTabs;
 import net.minecraft.client.Minecraft;
-import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.inventory.EntityEquipmentSlot;
@@ -13,7 +11,6 @@ import net.minecraft.world.World;
 import thaumcraft.api.items.IVisDiscountGear;
 
 import javax.annotation.Nullable;
-import java.util.List;
 
 public class ItemThaumiumReinforcedWing extends ItemFeatherWing implements IVisDiscountGear {
     int visDiscount;

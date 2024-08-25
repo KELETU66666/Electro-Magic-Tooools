@@ -21,14 +21,12 @@
 
 package com.keletu.emt.item.armor.boots;
 
-import com.keletu.emt.client.creativetabs.EMTCreativeTabs;
 import com.keletu.emt.ElectroMagicTools;
+import com.keletu.emt.client.creativetabs.EMTCreativeTabs;
 import com.keletu.emt.util.EMTConfigHandler;
-import com.keletu.emt.util.EMTTextHelper;
 import ic2.api.item.ElectricItem;
 import ic2.api.item.IElectricItem;
 import ic2.api.item.IMetalArmor;
-import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
@@ -50,7 +48,6 @@ import thaumcraft.api.items.IVisDiscountGear;
 import thaumcraft.common.lib.events.PlayerEvents;
 
 import javax.annotation.Nullable;
-import java.util.List;
 
 public class ItemElectricBootsTraveller extends ItemArmor implements IElectricItem, IVisDiscountGear, IMetalArmor, ISpecialArmor {
 

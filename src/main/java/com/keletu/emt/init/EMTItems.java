@@ -1,5 +1,7 @@
 package com.keletu.emt.init;
 
+import com.keletu.emt.ElectroMagicTools;
+import com.keletu.emt.client.creativetabs.EMTCreativeTabs;
 import com.keletu.emt.item.ItemElectricScribingTools;
 import com.keletu.emt.item.ItemIC2Baubles;
 import com.keletu.emt.item.ItemMaterials;
@@ -16,8 +18,6 @@ import com.keletu.emt.item.armor.wings.ItemNanoWing;
 import com.keletu.emt.item.armor.wings.ItemQuantumWing;
 import com.keletu.emt.item.armor.wings.ItemThaumiumReinforcedWing;
 import com.keletu.emt.item.tool.*;
-import com.keletu.emt.client.creativetabs.EMTCreativeTabs;
-import com.keletu.emt.ElectroMagicTools;
 import joptsimple.internal.Strings;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;

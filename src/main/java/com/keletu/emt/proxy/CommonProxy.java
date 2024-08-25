@@ -3,6 +3,7 @@ package com.keletu.emt.proxy;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.world.World;
 import net.minecraftforge.fml.common.network.IGuiHandler;
+
 import javax.annotation.Nullable;
 
 public class CommonProxy implements IGuiHandler {

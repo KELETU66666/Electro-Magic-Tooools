@@ -1,7 +1,7 @@
 package com.keletu.emt.init;
 
-import com.keletu.emt.entity.EntityArcher;
 import com.keletu.emt.ElectroMagicTools;
+import com.keletu.emt.entity.EntityArcher;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.world.World;
 import net.minecraftforge.fml.common.registry.EntityRegistry;

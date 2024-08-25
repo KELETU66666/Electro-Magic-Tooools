@@ -2,8 +2,8 @@ package com.keletu.emt.item;
 
 import baubles.api.BaubleType;
 import baubles.api.IBauble;
-import com.keletu.emt.util.EMTConfigHandler;
 import com.keletu.emt.init.EMTItems;
+import com.keletu.emt.util.EMTConfigHandler;
 import ic2.api.item.ElectricItem;
 import ic2.api.item.IElectricItem;
 import net.minecraft.entity.EntityLivingBase;

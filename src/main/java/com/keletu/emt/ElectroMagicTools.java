@@ -4,7 +4,6 @@ package com.keletu.emt;
 import com.keletu.emt.command.CommandOutput;
 import com.keletu.emt.init.*;
 import com.keletu.emt.item.events.BootsFallEvent;
-import com.keletu.emt.item.events.BootsJumpEvent;
 import com.keletu.emt.proxy.CommonProxy;
 import com.keletu.emt.util.*;
 import net.minecraft.util.ResourceLocation;
@@ -76,10 +75,6 @@ public class ElectroMagicTools {
 
         }
 
-        MinecraftForge.EVENT_BUS.register(new KnowledgeEMT());
-
-
-        KnowledgeEMT.clInit.call();
         EMTEssentiasOutputs.addPrimalOutputs();
         EMTEssentiasOutputs.addOutputs();
 
@@ -93,7 +88,7 @@ public class ElectroMagicTools {
     public void init(FMLInitializationEvent e) {
         NetworkRegistry.INSTANCE.registerGuiHandler(instance, proxy);
         EMTOreDictionary.setup();
-        RES_CAT = ResearchCategories.registerCategory(catName, null, null, icon, back, back2);
+        RES_CAT = ResearchCategories.registerCategory(catName, "WIP"/*"UNLOCKARTIFICE"*/, null, icon, back, back2);
         EMTEntities.registerEMTEntities();
         LOGGER.info("Registration Recipes...");
         EMTRecipes.setup();
@@ -110,9 +105,6 @@ public class ElectroMagicTools {
     @Mod.EventHandler
     public void postInit(FMLPostInitializationEvent e) {
         proxy.registerRenders();
-
-
-        KnowledgeEMT.init.call();
     }
 
     @Mod.EventHandler
