@@ -21,7 +21,7 @@ public class EMTIC2Recipes {
 
         Recipes.metalformerRolling.addRecipe(Recipes.inputFactory.forStack(new ItemStack(ItemsTC.ingots, 1, 0)), null, false, new ItemStack(ItemsTC.plate, 1, 2));
         Recipes.metalformerRolling.addRecipe(Recipes.inputFactory.forStack(new ItemStack(ItemsTC.ingots, 1, 1)), null, false, new ItemStack(ItemsTC.plate, 1, 3));
-        Recipes.metalformerRolling.addRecipe(Recipes.inputFactory.forStack(new ItemStack(ItemsTC.ingots, 1, 2)), null, false, new ItemStack(ItemsTC.plate, 1, 1));
+        Recipes.metalformerRolling.addRecipe(Recipes.inputFactory.forStack(new ItemStack(ItemsTC.ingots, 1, 2)), null, false, new ItemStack(ItemsTC.plate, 1, 0));
 
         NBTTagCompound waterAmount = new NBTTagCompound();
         waterAmount.setInteger("amount", 1000);
