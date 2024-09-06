@@ -1,19 +1,16 @@
 package com.keletu.emt.block.solar.water;
 
-import com.keletu.emt.init.EMTBlocks;
 import com.keletu.emt.tile.solar.water.TileEntityDoubleWaterSolar;
 import net.minecraft.block.BlockContainer;
 import net.minecraft.block.BlockHorizontal;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.properties.PropertyDirection;
 import net.minecraft.block.state.IBlockState;
-import net.minecraft.item.Item;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.EnumBlockRenderType;
 import net.minecraft.world.World;
 
 import javax.annotation.Nullable;
-import java.util.Random;
 
 public class BlockDoubleWaterCompressedSolar extends BlockContainer
 {
