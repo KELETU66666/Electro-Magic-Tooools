@@ -1,5 +1,3 @@
-// Decompiled with: Procyon 0.6.0
-// Class Version: 8
 package com.keletu.emt.block.solar.water;
 
 import com.keletu.emt.init.EMTBlocks;
@@ -23,10 +21,7 @@ public class BlockDoubleWaterCompressedSolar extends BlockContainer
 
     public BlockDoubleWaterCompressedSolar(final Material iron) {
         super(iron);
-    }
-
-    public Item getItemDropped(final IBlockState state, final Random rand, final int fortune) {
-        return Item.getItemFromBlock(EMTBlocks.solar_waterdoublecompressed);
+        this.setHardness(4.0F);
     }
 
     public EnumBlockRenderType getRenderType(final IBlockState state) {
